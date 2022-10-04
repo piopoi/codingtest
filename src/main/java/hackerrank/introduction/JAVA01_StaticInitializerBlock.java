@@ -1,7 +1,6 @@
 package hackerrank.introduction;
 
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class JAVA01_StaticInitializerBlock {
     public static void main(String[] args) {
@@ -13,7 +12,7 @@ public class JAVA01_StaticInitializerBlock {
             scanner.close();
 
             //validate
-            if(breadth < 1 || height < 1) {
+            if (breadth < 1 || height < 1) {
                 throw new Exception("Breadth and height must be positive");
             }
 
