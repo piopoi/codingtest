@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * LeetCode - Prolems
+ * LeetCode - Problems
  * 4. Median of Two Sorted Arrays
  * https://leetcode.com/problems/median-of-two-sorted-arrays/description/
  */
