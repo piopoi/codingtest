@@ -22,6 +22,8 @@ public class ThreadPool {
             executorService.submit(task);
         }
         end = System.currentTimeMillis();
+        executorService.shutdown(); //스레드 풀 종료
+        while (!executorService.isTerminated()) {} //모든 작업이 종료될 때까지 대기
         System.out.println("Multi Thread: FixedThreadPool = " + (end - start) + "ms");
 
         // Single Thread
@@ -32,8 +34,6 @@ public class ThreadPool {
         end = System.currentTimeMillis();
         System.out.println("Single Thread = " + (end - start) + "ms");
 
-        //스레드 풀 종료
-        executorService.shutdown();
     }
 
     private static class PowTask implements Runnable {
