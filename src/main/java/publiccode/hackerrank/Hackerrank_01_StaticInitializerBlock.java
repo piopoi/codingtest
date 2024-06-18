@@ -1,8 +1,8 @@
-package publiccode.hackerrank.introduction;
+package publiccode.hackerrank;
 
 import java.util.Scanner;
 
-public class JAVA01_StaticInitializerBlock {
+public class Hackerrank_01_StaticInitializerBlock {
     public static void main(String[] args) {
         try {
             //input value

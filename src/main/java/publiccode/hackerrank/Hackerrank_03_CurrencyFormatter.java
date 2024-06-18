@@ -1,10 +1,10 @@
-package publiccode.hackerrank.introduction;
+package publiccode.hackerrank;
 
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class JAVA03_CurrencyFormatter {
+public class Hackerrank_03_CurrencyFormatter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double payment = scanner.nextDouble();

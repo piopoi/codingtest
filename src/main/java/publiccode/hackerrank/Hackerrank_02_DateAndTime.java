@@ -1,4 +1,4 @@
-package publiccode.hackerrank.introduction;
+package publiccode.hackerrank;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Calendar;
 
-public class JAVA02_DateAndTime {
+public class Hackerrank_02_DateAndTime {
     /*
      * Complete the 'findDay' function below.
      *

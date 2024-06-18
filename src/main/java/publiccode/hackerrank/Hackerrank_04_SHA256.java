@@ -1,9 +1,9 @@
-package publiccode.hackerrank.advanced;
+package publiccode.hackerrank;
 
 import java.security.MessageDigest;
 import java.util.Scanner;
 
-public class JAVA04_SHA256 {
+public class Hackerrank_04_SHA256 {
 
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
