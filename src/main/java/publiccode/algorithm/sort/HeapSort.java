@@ -1,6 +1,6 @@
 package publiccode.algorithm.sort;
 
-import com.company.util.Util;
+import common.Util;
 import java.util.Arrays;
 import java.util.Scanner;
 
