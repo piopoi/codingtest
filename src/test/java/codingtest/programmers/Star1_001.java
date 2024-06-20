@@ -34,7 +34,7 @@ public class Star1_001 {
                 .isEqualTo(new String[]{"u"});
     }
 
-    public static String[] solution(String[] str_list) {
+    private String[] solution(String[] str_list) {
         for(int i = 0; i < str_list.length; i++) {
             if(str_list[i].equals("l")) {
                 return Arrays.copyOfRange(str_list, 0, i);
@@ -46,7 +46,7 @@ public class Star1_001 {
         return new String[0];
     }
 
-    private static int indexOf(String[] arr, String target) {
+    private int indexOf(String[] arr, String target) {
         for(int i = 0; i < arr.length; i++) {
             if(arr[i].equals(target)) {
                 return i;
