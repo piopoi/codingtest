@@ -1,4 +1,4 @@
-package publiccode.codingtest.leetcode;
+package codingtest.leetcode;
 
 /**
  * LeetCode - Problems

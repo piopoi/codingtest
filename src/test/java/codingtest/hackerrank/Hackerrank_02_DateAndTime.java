@@ -1,4 +1,4 @@
-package publiccode.codingtest.hackerrank;
+package codingtest.hackerrank;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

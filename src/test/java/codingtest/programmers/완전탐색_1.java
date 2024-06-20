@@ -1,4 +1,4 @@
-package publiccode.codingtest.programmers;
+package codingtest.programmers;
 
 import java.util.*;
 
