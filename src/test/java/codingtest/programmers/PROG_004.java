@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 /**
  * 프로그래머스 > 코딩테스트 연습 > 코딩 기초 트레이닝 > 1로 만들기
  */
-public class Star1_003 {
+public class PROG_004 {
     @Test
     @DisplayName("1로 만들기")
     void test() {

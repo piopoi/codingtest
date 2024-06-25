@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 /**
  * 프로그래머스 > 코딩테스트 연습 > 코딩 기초 트레이닝 > 2의 영역
  */
-public class Star1_006 {
+public class PROG_007 {
     @Test
     @DisplayName("")
     void test() {

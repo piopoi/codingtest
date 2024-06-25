@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 /**
  * 프로그래머스 > 코딩테스트 연습 > 코딩 기초 트레이닝 > 문자열이 몇 번 등장하는지 세기
  */
-public class Star1_004 {
+public class PROG_005 {
     @Test
     @DisplayName("")
     void test() {

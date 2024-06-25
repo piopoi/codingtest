@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 /**
  * 프로그래머스 > 코딩테스트 연습 > 코딩 기초 트레이닝 > ad 제거하기
  */
-public class Star1_002 {
+public class PROG_003 {
     @Test
     @DisplayName("ad 제거하기")
     void test() {

@@ -6,9 +6,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 /**
- * 프로그래머스 > 가장 긴 팰린드롬 찾기
+ * 프로그래머스 > 가장 긴 팰린드롬(Palindrome) 찾기
  */
-public class findLongestPalindrome {
+public class PROG_001 {
     @Test
     @DisplayName("가장 긴 팰린드롬 찾기")
     void test() {
