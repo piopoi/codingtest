@@ -7,8 +7,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 /**
- * 프로그래머스 > 코딩테스트 연습 > 코딩 기초 트레이닝
- * 왼쪽 오른쪽
+ * 프로그래머스 > 코딩테스트 연습 > 코딩 기초 트레이닝 > 왼쪽 오른쪽
  */
 public class Star1_001 {
     @Test
