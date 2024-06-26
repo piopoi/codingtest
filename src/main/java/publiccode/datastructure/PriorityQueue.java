@@ -11,7 +11,8 @@ public class PriorityQueue {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         //최대 힙 생성
-        Heap maxHeap = new Heap(arr.length);
+        PriorityQueue pq = new PriorityQueue();
+        Heap maxHeap = pq.new Heap(arr.length);
 
         //push
         for (int i = 0; i < arr.length; i++) {
@@ -35,7 +36,7 @@ public class PriorityQueue {
     /**
      * 최대 힙 (Max Heap)
      */
-    public static class Heap {
+    private class Heap {
         int[] arr;
         int nodeCount = 0;
 
