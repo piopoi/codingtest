@@ -1,4 +1,4 @@
-package publiccode.designpattern.templatemethod;
+package publiccode.designpattern.template_method;
 
 public class TemplateMethod {
     public static void main(String[] args) {
