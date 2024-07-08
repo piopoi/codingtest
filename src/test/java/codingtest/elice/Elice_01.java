@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
  */
 class Elice_01 {
     @Test
-    @DisplayName("")
+    @DisplayName("n보다 큰 정수 중에서 가장 작은 수 구하기")
     void test() {
         assertThat(solution(364)).isEqualTo(436);
         assertThat(solution(4142543)).isEqualTo(4143245);
