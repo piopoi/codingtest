@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
  */
 public class PROG_014 {
     @Test
-    @DisplayName("글자 지우기\n")
+    @DisplayName("글자 지우기")
     void test() {
         assertThat(solution1("apporoograpemmemprs", new int[]{1, 16, 6, 15, 0, 10, 11, 3}))
                 .isEqualTo("programmers");
