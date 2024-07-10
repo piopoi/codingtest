@@ -1,4 +1,4 @@
-package publiccode.algorithm.math;
+package algorithm;
 
 /**
  * 최대공약수, 최소공배수 구하기

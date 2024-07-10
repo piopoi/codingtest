@@ -1,7 +1,12 @@
-package publiccode.algorithm.math;
+package algorithm;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 /**
  * 소수 판별법 (Primality Test)
@@ -15,12 +20,14 @@ import java.util.Arrays;
  * 소수가 아닌 수들을 걸라내보자.
  */
 public class PrimeNumber {
-    public static void main(String[] args) {
-        int n = 120; // 2 ~ 120의 정수 중 소수 찾기
-
-        ArrayList<Integer> primeNumbers = new PrimeNumber().findPrimeNumber(n);
-        System.out.println(primeNumbers);
-        System.out.println(primeNumbers.size());
+    @Test
+    @DisplayName("소수 찾기")
+    void test() {
+        assertThat(findPrimeNumber(128))
+                .isEqualTo(List.of(2, 3, 5, 7, 11, 13, 17, 19,
+                        23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67,
+                        71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113))
+                .hasSize(30);
     }
 
     private ArrayList<Integer> findPrimeNumber(int n) {
