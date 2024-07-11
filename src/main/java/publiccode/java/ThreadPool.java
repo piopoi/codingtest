@@ -32,7 +32,7 @@ public class ThreadPool {
         end = System.currentTimeMillis();
         System.out.println("Single Thread = " + (end - start) + "ms");
 
-        //3. 스레드 풀 종료
+        //스레드 풀 종료
         executorService.shutdown();
     }
 
